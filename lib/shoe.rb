@@ -16,7 +16,7 @@ class Shoe
     # create the writer for brand and add the logic for the class constant
   def brand=(brand)
     @brand = brand
-    BRAND << brand 
+    BRANDS << brand 
   end
 end
 end
